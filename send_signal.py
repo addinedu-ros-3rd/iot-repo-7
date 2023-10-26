@@ -16,8 +16,22 @@ class WindowClass(QMainWindow, from_class):
         self.conn = Serial(port='/dev/ttyACM0', baudrate=9600,timeout=0.1)
         self.serial = SerialManager(self.conn)
         self.serial.start()
+        
+        
+        # 버튼 클릭시 이펙트
+        self.setNextTime.setStyleSheet(""" QPushButton { border: 1px outset black; border-radius: 15px;}
+            QPushButton:pressed {border-color : rgb(255, 255, 255); background-color: rgb(28, 113, 216); color: rgb(255, 255, 255);} """)
+        self.giveInstantly.setStyleSheet(""" QPushButton { border: 1px outset black; border-radius: 15px;}
+            QPushButton:pressed {border-color : rgb(255, 255, 255); background-color: rgb(28, 113, 216); color: rgb(255, 255, 255);} """)
+        self.reset.setStyleSheet(""" QPushButton { border: 1px outset black; border-radius: 15px;}
+            QPushButton:pressed {border-color : rgb(255, 255, 255); background-color: rgb(28, 113, 216); color: rgb(255, 255, 255);} """)
+        self.btn_rec.setStyleSheet(""" QPushButton { border: 1px outset red; border-radius: 15px; font-weight: bold; color : rgb(224, 27, 36);}
+            QPushButton:pressed {border-color : rgb(255, 255, 255); background-color: rgb(224, 27, 36); color: rgb(255, 255, 255);} """)
+        self.btn_play.setStyleSheet(""" QPushButton { border: 1px outset black; border-radius: 15px; font-weight: bold;}
+            QPushButton:pressed {border-color : rgb(255, 255, 255); background-color:rgb(28, 113, 216); color: rgb(255, 255, 255);} """)
 
         self.count = 0
+        
         
         '------------ voice -------------'
         self.btn_rec.clicked.connect(self.RecVoice)
@@ -28,6 +42,7 @@ class WindowClass(QMainWindow, from_class):
         self.giveInstantly.clicked.connect(self.GiveInstantly)
         self.setNextTime.clicked.connect(self.SetNextTime)
         self.reset.clicked.connect(self.Reset)
+        self.btn_amount.clicked.connect(self.setAmount)
         '---------------next Time----------------------'
         # self.hour.setRange(0, 8)
         # self.hour.setSingleStep(1)
@@ -63,7 +78,6 @@ class WindowClass(QMainWindow, from_class):
             self.conn.write(text.encode())
         else:
             pass
-        
         
     
     def GiveInstantly(self):
@@ -104,6 +118,17 @@ class WindowClass(QMainWindow, from_class):
         text = "reset"
         text += "\n"
         self.conn.write(text.encode())
+
+
+    def setAmount(self):
+        retval = QMessageBox.question(self, 'question', 'Are you sure give {0}g?'.format(self.amount.value()),
+                                        QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        if retval == QMessageBox.Yes:
+            text = "{0}g".format(self.amount.value())
+            text += "\n"
+            self.conn.write(text.encode())
+        else:
+            pass   
         
 
     def Recv(self, message):
