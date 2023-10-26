@@ -13,6 +13,8 @@ int button = 13;
 int button2 = 10;
 int flag, flag2, flag3 = 0;
 
+int PLAYE = 9;  //재생 9번
+int REC = 8;  // 녹음 8번
 
 int returnTime()
 {
@@ -269,6 +271,18 @@ void loop()
       Serial.print(left_second);
       Serial.print(",");
       
+    }
+    else if (input.equals("rec"))
+    {
+      digitalWrite(REC,HIGH);
+      delay(3000);
+      digitalWrite(REC,LOW);
+    }
+    else if (input.equals("play"))
+    {
+      digitalWrite(PLAYE,HIGH);
+        delay(10);
+        digitalWrite(PLAYE,LOW);
     }
     else if (input.equals("reset"))
     {

@@ -18,6 +18,10 @@ class WindowClass(QMainWindow, from_class):
         self.serial.start()
 
         self.count = 0
+        
+        '------------ voice -------------'
+        self.btn_rec.clicked.connect(self.RecVoice)
+        self.btn_play.clicked.connect(self.PlayVoice)
 
         # self.send.clicked.connect(self.Send)
         '------------button -------------'
@@ -38,6 +42,28 @@ class WindowClass(QMainWindow, from_class):
         # self.second.valueChanged.connect(self.setNextSecond)
         '-------------response---------------'
         self.serial.receive.connect(self.Recv)
+        
+    
+    def RecVoice(self):
+        retval = QMessageBox.question(self, 'VOICE', '녹음할꺼임??',
+                                        QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        if retval == QMessageBox.Yes:
+            text = "rec"
+            text += "\n"
+            self.conn.write(text.encode())
+        else:
+            pass
+        
+    def PlayVoice(self):
+        retval = QMessageBox.question(self, 'VOICE', '초밥아 밥먹자~',
+                                        QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        if retval == QMessageBox.Yes:
+            text = "play"
+            text += "\n"
+            self.conn.write(text.encode())
+        else:
+            pass
+        
         
     
     def GiveInstantly(self):
