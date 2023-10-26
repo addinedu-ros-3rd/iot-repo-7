@@ -265,6 +265,10 @@ void loop()
       Serial.print(",");
       Serial.print(left_second);
       Serial.print(",");
+
+      timeToMeal();
+
+      flag = 5;
       
     }
     else if (input.equals("rec"))
