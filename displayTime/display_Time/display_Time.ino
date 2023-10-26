@@ -8,13 +8,15 @@ int next_hour, next_minute, next_second = 0;
 int left_hour, left_minute, left_second = 0;
 
 const int setTimepin = A0;
+
 int sensorValue = 0;
 int button = 13;
 int button2 = 10;
-int flag, flag2, flag3 = 0;
+int flag, flag2 = 0;
 
 int PLAYE = 9;  //재생 9번
 int REC = 8;  // 녹음 8번
+
 
 int returnTime()
 {
@@ -75,10 +77,8 @@ void flag_1()
 
   if (flag2 == 1)
   {
-    lcd.clear();
-    lcd.print("It's time");
-    lcd.setCursor(0, 1);
-    lcd.print("to meal");
+    timeToMeal();
+    flag2 = 0;
   } 
 }
 
@@ -211,24 +211,19 @@ void setup()
 
 void loop()
 {
-  bool setNextTime = digitalRead(button);
-  bool giveInstantly = digitalRead(button2); 
+  bool button_1 = digitalRead(button);
+  bool button_2 = digitalRead(button2); 
 
   sensorValue = analogRead(setTimepin);
 
-  if (setNextTime == HIGH)
+  if (button_1 == HIGH)
   {
     flag += 1;
-    if ((flag == 2 ) && (flag2 == 1))
-    {
-      flag = 1;
-      flag2 = 0;
-    }
   }
 
-  if (giveInstantly == HIGH)
+  if (button_2 == HIGH)
   {
-    flag2 += 1;
+    flag2 = 1;
   }
 
   switch (flag) 
@@ -281,13 +276,12 @@ void loop()
     else if (input.equals("play"))
     {
       digitalWrite(PLAYE,HIGH);
-        delay(10);
-        digitalWrite(PLAYE,LOW);
+      delay(10);
+      digitalWrite(PLAYE,LOW);
     }
     else if (input.equals("reset"))
     {
       flag = 0;
-      // flag3 = 0;
       
       cur_hour, cur_minute, cur_second= 0;
       left_hour, left_minute, left_second = 0;
