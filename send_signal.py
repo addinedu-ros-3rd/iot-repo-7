@@ -29,17 +29,17 @@ class WindowClass(QMainWindow, from_class):
         self.setNextTime.clicked.connect(self.SetNextTime)
         self.reset.clicked.connect(self.Reset)
         '---------------next Time----------------------'
-        self.hour.setRange(0, 8)
-        self.hour.setSingleStep(1)
-        # self.hour.valueChanged.connect(self.setNextHour)
+        # self.hour.setRange(0, 8)
+        # self.hour.setSingleStep(1)
+        # # self.hour.valueChanged.connect(self.setNextHour)
         
-        self.minute.setRange(0, 59)
-        self.minute.setSingleStep(1)
-        # self.minute.valueChanged.connect(self.setNextMinute)
+        # self.minute.setRange(0, 59)
+        # self.minute.setSingleStep(1)
+        # # self.minute.valueChanged.connect(self.setNextMinute)
 
-        self.second.setRange(0, 59)
-        self.second.setSingleStep(1)
-        # self.second.valueChanged.connect(self.setNextSecond)
+        # self.second.setRange(0, 59)
+        # self.second.setSingleStep(1)
+        # # self.second.valueChanged.connect(self.setNextSecond)
         '-------------response---------------'
         self.serial.receive.connect(self.Recv)
         
