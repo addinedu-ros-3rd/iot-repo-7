@@ -288,29 +288,24 @@ void loop()
       Serial.println(",");
     }
     else
-    {
-      next_hour = input.substring(0,input.indexOf('H')).toInt();
-      next_minute = input.substring(input.indexOf('H') + 1, input.indexOf('M')).toInt();
-      next_second = input.substring(input.indexOf('M') + 1, input.indexOf('S')).toInt();
-
-      flag = 5;
-      
-      // flag3 += 1;
-      
-      // // left_hour, left_minute, left_second =  flag_5();
-      // if (flag3 > 1)
-      // {
-      //   Serial.println("99,99,99,");
-      
-      // }
-      
-      // Serial.print(left_hour);
-      // Serial.print(left_hour);   
+    { 
+      if (flag != 5)
+      {
+        next_hour = input.substring(0,input.indexOf('H')).toInt();
+        next_minute = input.substring(input.indexOf('H') + 1, input.indexOf('M')).toInt();
+        next_second = input.substring(input.indexOf('M') + 1, input.indexOf('S')).toInt();
+        
+        flag = 5;
+      }
+      //aaa
+      else if (flag == 5)
+      {
+        Serial.println("99,99,99,");
+        flag = 0;
+      }      
     }
   }
 
-  // Serial.print("falg : ");
-  // Serial.println(flag);
   lcd.display();
   delay(1000);
 }
