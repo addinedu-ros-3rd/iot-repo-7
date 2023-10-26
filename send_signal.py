@@ -53,9 +53,10 @@ class WindowClass(QMainWindow, from_class):
         
     
     def SetNextTime(self):
-        self.count += 1
 
-        if self.count == 1:
+        print(self.hour.value(), ', ', self.minute.value(), ', ', self.second.value())
+
+        if not((self.hour.value() == 0)and (self.minute.value() == 0) and (self.second.value() == 0)):
             retval = QMessageBox.question(self, 'question', 'Are you sure set Next Time?',
                                             QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
             
@@ -65,16 +66,14 @@ class WindowClass(QMainWindow, from_class):
                 
                 self.conn.write(text.encode())
 
-        # elif (self.hour.value() == 0)and (self.minute.value() == 0) and (self.second.value() == 0):
-        #     QMessageBox.warning(self,'warning','Please set Next Time and do press again')
+        elif (self.hour.value() == 0)and (self.minute.value() == 0) and (self.second.value() == 0):
+            QMessageBox.warning(self,'warning','Please set Next Time and do press again')
         
         else:
-             QMessageBox.warning(self,'warning','Please press reset button and do again')
+            QMessageBox.warning(self,'warning','Please press reset button and do again')
 
     
-
     def Reset(self):
-        self.count = 0
 
         text = "reset"
         text += "\n"
@@ -83,20 +82,23 @@ class WindowClass(QMainWindow, from_class):
 
     def Recv(self, message):
         print(message)
-        
-        hms = message.split(",")
-        print(hms)
-        
-        self.hourlabel.setText(hms[0])
-        self.minutelabel.setText(hms[1])
-        self.secondlabel.setText(hms[2])
+        hms = message.split(",") 
 
+        print(hms)
         if (hms[0] == '0') and (hms[1] == '0') and (hms[2] == '0') and (not"reset" in hms):
             QMessageBox.information(self,'notice','meals is given to your pet successfully')
+
+            self.hourlabel.setText(hms[0])
+            self.minutelabel.setText(hms[1])
+            self.secondlabel.setText(hms[2])
         
-            
-        # self.textEdit.append(message)
+        elif (hms[0] == '99') and (hms[1] == '99') and (hms[2] == '99'):
+            QMessageBox.warning(self,'warning','Please press reset button and do again')
         
+        else:
+            self.hourlabel.setText(hms[0])
+            self.minutelabel.setText(hms[1])
+            self.secondlabel.setText(hms[2])
 
 
 class SerialManager(QThread):
