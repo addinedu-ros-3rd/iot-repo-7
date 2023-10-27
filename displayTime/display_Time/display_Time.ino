@@ -96,7 +96,7 @@ void flag3_2(int sensorValue)
 void flag_1()
 {
   lcd.clear();
-  lcd.print("Give Instantly?");
+  lcd.print("Give right now?");
 
   if (flag2 == 1)
   {
