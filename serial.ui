@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>427</width>
-    <height>688</height>
+    <height>661</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -414,24 +414,37 @@ border-color: black;
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="Line" name="line_2">
+  <widget class="QPushButton" name="btn_amount">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>571</y>
-     <width>161</width>
-     <height>20</height>
+     <x>90</x>
+     <y>582</y>
+     <width>121</width>
+     <height>51</height>
     </rect>
    </property>
-   <property name="orientation">
-    <enum>Qt::Horizontal</enum>
+   <property name="font">
+    <font>
+     <family>aakar</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-style: outset;
+border-width: 1px;
+border-radius: 15px;
+border-color: black;
+</string>
+   </property>
+   <property name="text">
+    <string>SET</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>570</y>
+     <x>92</x>
+     <y>560</y>
      <width>91</width>
      <height>20</height>
     </rect>
@@ -452,11 +465,24 @@ border-color: black;
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
    </property>
   </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>560</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
   <widget class="QSpinBox" name="amount">
    <property name="geometry">
     <rect>
      <x>230</x>
-     <y>590</y>
+     <y>580</y>
      <width>71</width>
      <height>51</height>
     </rect>
@@ -501,7 +527,7 @@ border-color: black;
      <x>310</x>
      <y>590</y>
      <width>21</width>
-     <height>51</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -515,32 +541,6 @@ border-color: black;
    </property>
    <property name="text">
     <string>g</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="btn_amount">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>590</y>
-     <width>121</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>aakar</family>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">
-border-style: outset;
-border-width: 1px;
-border-radius: 15px;
-border-color: black;
-</string>
-   </property>
-   <property name="text">
-    <string>SET</string>
    </property>
   </widget>
  </widget>

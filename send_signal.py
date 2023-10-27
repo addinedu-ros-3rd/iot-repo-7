@@ -124,7 +124,7 @@ class WindowClass(QMainWindow, from_class):
         retval = QMessageBox.question(self, 'question', 'Are you sure give {0}g?'.format(self.amount.value()),
                                         QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
         if retval == QMessageBox.Yes:
-            text = "{0}g".format(self.amount.value())
+            text = "{0}".format(self.amount.value())
             text += "\n"
             self.conn.write(text.encode())
         else:
@@ -145,6 +145,9 @@ class WindowClass(QMainWindow, from_class):
         
         elif (hms[0] == '99') and (hms[1] == '99') and (hms[2] == '99'):
             QMessageBox.warning(self,'warning','Please press reset button and do again')
+        
+        elif (hms[1] == '88') and (hms[2] == '88'):
+            self.amount.setValue(int(hms[0]))
         
         else:
             self.hourlabel.setText(hms[0])

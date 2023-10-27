@@ -1,9 +1,12 @@
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 #include <stdlib.h>
+#include <Servo.h>
 
+Servo servo;
 LiquidCrystal_I2C lcd(0x27,16,2);
-int cur_hour, cur_minute, cur_second, count =0;
+
+int cur_hour, cur_minute, cur_second, count, amount =0;
 int next_hour, next_minute, next_second = 0;
 int left_hour, left_minute, left_second = 0;
 
@@ -12,7 +15,7 @@ const int setTimepin = A0;
 int sensorValue = 0;
 int button = 13;
 int button2 = 10;
-int flag, flag2 = 0;
+int flag, flag2, flag3 = 0;
 
 int PLAYE = 9;  //재생 9번
 int REC = 8;  // 녹음 8번
@@ -21,7 +24,7 @@ int REC = 8;  // 녹음 8번
 int returnTime()
 {
   if (cur_second == 60) 
-  {    
+  {   
     cur_second = 0;
     cur_minute += 1;
   }
@@ -57,9 +60,9 @@ int setNextMinute(int value)
   return next_minute;
 }
 
-int setNextSecond(int)
+int setNextSecond(int value)
 {
-  next_second = map(sensorValue, 0, 1000, 0, 59);
+  next_second = map(value, 0, 1000, 0, 59);
 
   if (next_second == 60)
   {
@@ -69,6 +72,26 @@ int setNextSecond(int)
   return next_second;
 }
 
+int setAmount(int value)
+{
+  int lower_amount = map(value, 0, 1000, 1,20);
+  amount = lower_amount*10;
+
+  return amount;
+}
+
+void flag3_2(int sensorValue)
+{
+  lcd.clear();
+  lcd.print("set meal's");
+  lcd.setCursor(0, 1);
+  lcd.print("Amount :");
+
+  amount = setAmount(sensorValue);
+
+  lcd.print(amount);
+  lcd.print("g");
+}
 
 void flag_1()
 {
@@ -153,7 +176,6 @@ void flag_5()
   
   lcd.print(left_hour);
   lcd.print("H ");
-  
 
   lcd.print(left_minute);
   lcd.print("M ");
@@ -196,6 +218,21 @@ void timeToMeal()
     lcd.display();
     delay(500);
   }
+  play();
+}
+
+void play()
+{
+  digitalWrite(PLAYE,HIGH);
+  delay(10);
+  digitalWrite(PLAYE,LOW);
+}
+
+void rec()
+{
+  digitalWrite(REC,HIGH);
+  delay(3000);
+  digitalWrite(REC,LOW);
 }
 
 void setup()
@@ -204,6 +241,9 @@ void setup()
   lcd.backlight();
   pinMode(button, INPUT);
   pinMode(button2, INPUT);
+
+  servo.attach(5);
+  servo.write(0);
 
   Serial.begin(9600);
 }
@@ -224,6 +264,7 @@ void loop()
   if (button_2 == HIGH)
   {
     flag2 = 1;
+    flag3 += 1;
   }
 
   switch (flag) 
@@ -245,6 +286,32 @@ void loop()
         break;
     case 6:
         flag = 1;
+        break;
+  }
+
+  switch (flag3) 
+  {
+    case 2:
+        flag3_2(sensorValue);
+        break;
+    case 3:
+        lcd.clear();
+        lcd.print("Amount is ");
+        lcd.print(amount);
+        lcd.print("g");
+
+        Serial.print(amount);
+        Serial.println(",88,88,");
+
+        for (int i =0; i < 2; i++)
+        {
+          lcd.noDisplay();
+          delay(500);
+          lcd.display();
+          delay(500);
+        }
+
+        flag3 = 0;
         break;
   }
   
@@ -299,6 +366,11 @@ void loop()
       Serial.print("reset");
       Serial.println(",");
     }
+    else if (input.length() <= 3) 
+    {
+      amount = input.toInt();
+      flag3 = 3;
+    }
     else
     { 
       if (flag != 5)
@@ -314,7 +386,8 @@ void loop()
       {
         Serial.println("99,99,99,");
         flag = 0;
-      }      
+      }
+            
     }
   }
 
