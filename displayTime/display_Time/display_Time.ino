@@ -219,6 +219,7 @@ void timeToMeal()
     delay(500);
   }
   play();
+  moveMotor();
 }
 
 void play()
@@ -233,6 +234,23 @@ void rec()
   digitalWrite(REC,HIGH);
   delay(3000);
   digitalWrite(REC,LOW);
+}
+
+void moveMotor()
+{
+  for (int i=0; i<71; i++)
+  {
+    servo.write(i);
+    delay(10);
+  }
+
+  delay((amount/20)*1000);
+
+  for (int i=70; i>-1; i--)
+  {
+    servo.write(i);
+    delay(10);
+  }
 }
 
 void setup()
