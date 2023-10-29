@@ -9,7 +9,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 int cur_hour, cur_minute, cur_second, amount = 0;
 int next_hour, next_minute, next_second = 0;
 int left_hour, left_minute, left_second = 0;
-int amount_flag, time_flag, flag = 0;
+int amount_flag, time_flag, rightnow_flag, flag = 0;
 
 const int changeValuepin = A2;
 
@@ -42,19 +42,7 @@ int returnTime()
 }
 
 
-int isOkPressed()
-{
-  bool ok_flag = digitalRead(ok_btn);
-
-  if (ok_flag == HIGH)
-  {
-    return true;
-  }
-  return false;
-}
-
-
-int giveRightNow()
+void giveRightNow()
 {
   left_hour, left_minute, left_second = 0;
   cur_hour, cur_minute, cur_second= 0;
@@ -62,7 +50,7 @@ int giveRightNow()
   timeToMeal();
 }
 
-int setNextHour(int sensorValue)
+void setNextHour(int sensorValue)
 {
   lcd.clear();
   lcd.print("set Next Hour :");
@@ -73,10 +61,9 @@ int setNextHour(int sensorValue)
   lcd.print(next_hour);
   lcd.print("H 0M 0S");
 
-  return isOkPressed();
 }
 
-int setNextMinute(int sensorValue)
+void setNextMinute(int sensorValue)
 {
   lcd.clear();
   lcd.print("set Next Minute :");
@@ -93,11 +80,10 @@ int setNextMinute(int sensorValue)
   lcd.print(next_minute);
   lcd.print("M 0S");
 
-  return isOkPressed();
 }
 
 
-int setNextSecond(int sensorValue)
+void setNextSecond(int sensorValue)
 {
   lcd.clear();
   lcd.print("set Next second");
@@ -117,39 +103,8 @@ int setNextSecond(int sensorValue)
   lcd.print(next_second);
   lcd.print("S");
 
-  return isOkPressed();
 }
 
-int setMealTime(int sensorValue)
-{
-  if (setNextHour(sensorValue))
-  {
-    flag = 1;
-
-    return false;
-  }
-  
-  else if (flag == 1) 
-  {
-    if (setNextMinute(sensorValue))
-    {
-      flag = 2;
-    }
-
-    return false;
-  }
-
-  else 
-  {
-    bool setnextsecond = setNextSecond(sensorValue);
-    if(setnextsecond)
-    {
-      flag = 0;
-    }
-    return setnextsecond;
-
-  }
-}
 
 void getLeftTime()
 {
@@ -204,7 +159,7 @@ void getLeftTime()
   
 }
 
-int setMealAmount(int sensorValue)
+void setMealAmount(int sensorValue)
 {
   lcd.clear();
   lcd.print("set meal's");
@@ -216,8 +171,6 @@ int setMealAmount(int sensorValue)
 
   lcd.print(amount);
   lcd.print("g");
-
-  return isOkPressed();
 }
 
 void timeToMeal()
@@ -299,6 +252,11 @@ void loop()
   switch (mode_num) 
   {
     case 1:
+        if (digitalRead(ok_btn) == HIGH)
+        {
+          time_flag += 1;
+        }
+
         if (time_flag == 0)
         {
           lcd.clear();
@@ -307,23 +265,32 @@ void loop()
           lcd.print("set Meal Time?");
         }
 
-        if (isOkPressed())
+        else if (time_flag == 1)
         {
-          time_flag = 1;
+          setNextHour(sensorValue);
         }
 
-        if (time_flag == 1) 
-        { 
-          bool setmealtime = setMealTime(sensorValue);
-          if (setmealtime == true)
-          {
-            mode_num = 4;
-            time_flag = 0;
-          }
-        } 
+        else if (time_flag == 2) 
+        {
+          setNextMinute(sensorValue);
+        }
 
+        else if (time_flag == 3)
+        {
+          setNextSecond(sensorValue);
+        }
+        
+        else 
+        {
+          time_flag = 0;
+        }
         break;
     case 2:
+        if(digitalRead(ok_btn) == HIGH)
+        {
+          amount_flag += 1;
+        }
+
         if(amount_flag == 0)
         {
           lcd.clear();
@@ -332,40 +299,34 @@ void loop()
           lcd.print("set Meal Amount?");
         }
 
-        if (isOkPressed())
-        {
-          amount_flag = 1;
+        else if (amount_flag == 1) 
+        { 
+          setMealAmount(sensorValue);
         }
 
-        if (amount_flag == 1) 
-        { 
-          bool setmealamount = setMealAmount(sensorValue);
-          if (setmealamount == true)
-          {
-            mode_num = 4;
-            amount_flag = 0;
-          }
-        }    
+        else if (amount_flag == 2)
+        {
+          amount_flag = 0;
+        }
         break;
     case 3:
-        lcd.clear();
-        lcd.print("Are you sure");
-        lcd.setCursor(0,1);
-        lcd.print("give right now?");
-
-        if (isOkPressed())
+        if(digitalRead(ok_btn) == HIGH)
         {
-          giveRightNow();
+          rightnow_flag += 1;
         }
 
-        if ((next_hour == 0) && (next_minute == 0) && (next_second == 0))
+        if (rightnow_flag == 0)
         {
           lcd.clear();
-          lcd.print("set Next Time");
+          lcd.print("Are you sure");
+          lcd.setCursor(0,1);
+          lcd.print("give right now?");
         }
-        else 
+
+        else if (rightnow_flag == 1)
         {
-          mode_num = 4;
+          giveRightNow();
+          rightnow_flag = 0;
         }
         break;
     case 4:
@@ -376,7 +337,7 @@ void loop()
         break;
     default:
         lcd.clear();
-        lcd.print("밥 조");
+        lcd.print("BOB JOE");
         mode_num = 0;
   }
   
@@ -426,6 +387,7 @@ void loop()
       
       cur_hour, cur_minute, cur_second= 0;
       left_hour, left_minute, left_second = 0;
+      next_hour, next_minute, next_second = 0;
 
       Serial.print(left_hour);
       Serial.print(",");
@@ -443,9 +405,12 @@ void loop()
       lcd.clear();
       lcd.print("Amount is ");
       lcd.print(amount);
-      lcd.print('g')
+      lcd.print('g');
 
-      mode_num = 4;
+      Serial.print(amount);
+      Serial.println(",88,88,");
+
+      mode_num = 0;
     }
     else
     { 
@@ -462,10 +427,8 @@ void loop()
       {
         Serial.println("99,99,99,");
       }
-            
     }
   }
-
   lcd.display();
   delay(1000);
 }
