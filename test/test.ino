@@ -113,12 +113,13 @@ void getLeftTime()
   lcd.print("left Time is");
   lcd.setCursor(0, 1);
 
+
   cur_hour, cur_minute, cur_second = returnTime();
   int left_hour = next_hour - cur_hour;
   int left_minute = next_minute - cur_minute;
   int left_second = next_second - cur_second;
 
-
+  
   if (left_second < 0)
   {
     left_second = 60 + left_second;
@@ -131,14 +132,21 @@ void getLeftTime()
     left_hour = left_hour - 1;
   }
   
-  lcd.print(left_hour);
-  lcd.print("H ");
+  if ((next_hour == 0) && (next_minute == 0) && (next_second == 0))
+  {
+    lcd.print("0H 0M 0S");
+  }
+  else 
+  {
+    lcd.print(left_hour);
+    lcd.print("H ");
 
-  lcd.print(left_minute);
-  lcd.print("M ");
+    lcd.print(left_minute);
+    lcd.print("M ");
 
-  lcd.print(left_second);
-  lcd.print("S ");
+    lcd.print(left_second);
+    lcd.print("S "); 
+  }
 
   if ((left_hour == 0) && (left_minute == 0) && (left_second == 0))
   {
@@ -147,7 +155,6 @@ void getLeftTime()
     cur_hour = 0;
     cur_minute = 0;
     cur_second = 0;
-
   }
 
   Serial.print(left_hour);
@@ -306,6 +313,15 @@ void loop()
 
         else if (amount_flag == 2)
         {
+          lcd.clear();
+          lcd.print("Amount is ");
+          lcd.setCursor(0, 1);
+          lcd.print(amount);
+          lcd.print('g');
+        }
+
+        else if (amount_flag == 3) 
+        {
           amount_flag = 0;
         }
         break;
@@ -337,7 +353,7 @@ void loop()
         break;
     default:
         lcd.clear();
-        lcd.print("BOB JOE");
+        lcd.print("-----BOB JOE-----");
         mode_num = 0;
   }
   
@@ -410,7 +426,7 @@ void loop()
       Serial.print(amount);
       Serial.println(",88,88,");
 
-      mode_num = 0;
+      mode_num = 4;
     }
     else
     { 
