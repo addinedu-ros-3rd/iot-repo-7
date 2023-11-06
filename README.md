@@ -15,6 +15,7 @@
 ## 발표자료 및 시연 영상
 
 ![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/494cbc6c-4642-47db-b739-fa1210cf7009)
+[영상 구경하러 가기](https://drive.google.com/file/d/11cObL_RTVPlk4tNoNMhSktwqJqhwBYE1/view?usp=sharing)
 
 <br><br>
 
