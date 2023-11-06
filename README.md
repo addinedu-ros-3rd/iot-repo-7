@@ -41,8 +41,7 @@
   1. 편의성 --> 주인이 바빠서 배급 시간을 놓치는 경우 유용
   2. 반려동물 건강관리 --> 반려 동물의 규칙적인 식습관 
   3. 하드웨어 학습기회 --> 실제 하드웨어 구현을 해보며 하드웨어 지식 확장
-  4. <img src="https://github.com/marllinkang/python/assets/146154079/e874250f-f9bb-4936-a6cd-a6828ceb7b89" width="50" height="70"/>
- 아두이노 코딩 실력 향상 --> C언어 기반의 아두이노 숙련도 향상
+  4. <img src="https://github.com/marllinkang/python/assets/146154079/e874250f-f9bb-4936-a6cd-a6828ceb7b89" width="50" height="70"/>아두이노 코딩 실력 향상 --> C언어 기반의 아두이노 숙련도 향상
   5. <img src="https://github.com/marllinkang/python/assets/146154079/366692a1-8f42-4045-a1dc-3ab46c19f5da" width="50" height="70"/>직관적이고 편리한 사용법 ---> 사용자의 입장에서 편리성을 향상시키도록 노력
 
 ## 역할 분담
