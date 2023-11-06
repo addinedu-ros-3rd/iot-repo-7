@@ -38,13 +38,16 @@
   - 기술 키워드 : <img src="https://img.shields.io/badge/PySerial-000000?style=for-the-badge&logo=serial&logoColor=white"> 
 <img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=Qt&logoColor=white"> <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=Arduino&logoColor=white">
 
+<br>
 
 ## 프로젝트 목적
-  1. ** 편의성 ** --> 주인이 바빠서 배급 시간을 놓치는 경우 유용
-  2. 반려동물 건강관리 --> 반려 동물의 규칙적인 식습관 
-  3. 하드웨어 학습기회 --> 실제 하드웨어 구현을 해보며 하드웨어 지식 확장
-  4. 아두이노 코딩 실력 향상 --> C언어 기반의 아두이노 숙련도 향상
-  5. 직관적이고 편리한 사용법 ---> 사용자의 입장에서 편리성을 향상시키도록 노력
+  1. ⭐  **편의성** ⮕ 주인이 바빠서 배급 시간을 놓치는 경우 유용
+  2. ⭐  **반려동물 건강관리** ⮕ 반려 동물의 규칙적인 식습관 
+  3. ⭐  **하드웨어 학습기회** ⮕ 실제 하드웨어 구현을 해보며 하드웨어 지식 확장
+  4. ⭐  **아두이노 코딩 실력 향상** ⮕ C언어 기반의 아두이노 숙련도 향상
+  5. ⭐  **직관적이고 편리한 사용법** ⮕ 사용자의 입장에서 편리성을 향상시키도록 노력
+
+<br>
 
 ## 역할 분담
 #### 이충한
