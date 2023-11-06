@@ -10,7 +10,8 @@
   - 팀명 : 밥 조
   - 팀원 : 이충한 강병철 이수민
   - 기간 : 23.10.23 ~ 23.10.30
-  - 기술 키워드 :  모터제어, LCD, 음성입출력, Serial 통신,  <img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=Qt&logoColor=white"> <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  - 기술 키워드 :  모터제어, LCD, 음성입출력,![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/76088490-dca2-4c49-8277-a83337ccd5f5)
+,  <img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=Qt&logoColor=white"> <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
 ## 프로젝트 목적
   1. 편의성 --> 주인이 바빠서 배급 시간을 놓치는 경우 유용
