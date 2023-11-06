@@ -79,10 +79,8 @@
 ![Screenshot from 2023-11-06 17-20-10](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/dc85bcec-740a-406b-b957-12534c96135f)
 
 ### 기능
-- 2개의 버튼으로 동작하며 왼쪽(확인) 오른쪽(상태변경) 버튼으로 이루어져있음
-- 오른쪽(상태변경) 버튼을 누르게 되면 배급시간 배급량을 설정하는 상태로 변경
-- 사용자가 원하는 시간과 배급량을 왼쪽(확인)버튼을 클릭하여 설정한다
-- 그리고 기기 우측의 녹음(왼쪽), 재생(우측) 버튼을 통해 반려동물에게 배급 시간임을 인지하게 한다
+![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/b81ce8ed-e04c-4715-8537-fc97e22ca021)
+위 사진의 1개의 가변저항과 2개의 버튼을 이용해서 아래의 알고리즘 구현
 ![Screenshot from 2023-11-06 17-34-58](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/5850890d-f358-4095-a4fe-7fa6536ed94c)
 
 ### GUI 
