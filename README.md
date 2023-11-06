@@ -22,7 +22,7 @@
 
 |기본 기능|디스플레이|음성 녹음 및 재생|PC 연동|
 |---|---|---|---|
-|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/e09eb797-f234-4e02-8ef6-dd0fe6a713e5)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/19808eeb-5bb7-43bd-98e7-5b5410f711a6)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/a13a614f-3c2f-45f9-90fa-d3b4ccea3d3e)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/663428d4-cef6-4e0a-99c0-2868baf9891f)|
+|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/e021b891-b250-446d-9b14-0fef2a2e2c61)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/19808eeb-5bb7-43bd-98e7-5b5410f711a6)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/a13a614f-3c2f-45f9-90fa-d3b4ccea3d3e)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/663428d4-cef6-4e0a-99c0-2868baf9891f)|
 |배급 시간 설정 기능 <br> 배급량 조절 기능	<br> 즉시 배급 기능 |기본 기능들을 확인 및 설정 가능 <br> 버튼과 가변저항을 디스플레이와 연동 |배급할 때 녹음된 음성 출력 <br> 녹음버튼과 재생버튼을 연동 |Serial 통신을 통해 pc로 제어 가능 <br> pyQt로 GUI 제작|
 
 <br><br>
