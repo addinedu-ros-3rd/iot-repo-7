@@ -92,6 +92,15 @@
 위 사진의 1개의 가변저항과 2개의 버튼을 이용해서 아래의 알고리즘 구현
 
 ![Screenshot from 2023-11-06 17-34-58](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/5850890d-f358-4095-a4fe-7fa6536ed94c)
+1.시간 설정
+![Screenshot from 2023-11-06 18-12-00](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/3eef8d22-af15-428b-8431-7c90107c2f13)
+2.사료량 설정
+![Screenshot from 2023-11-06 18-12-37](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/e83665df-6540-414e-b8bd-41f512c339f8)
+3.즉시 지급
+![Screenshot from 2023-11-06 18-12-59](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/89cf6858-3202-4c2d-b11c-df27cd897bc9)
+
+
+
 
 ### GUI 
 - GUI를 활용하여 PC와의 Serial 통신을 통해 기기를 동작할 수 있다.
