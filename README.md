@@ -75,6 +75,8 @@
 </br>
 </br>
 
+### 시스템 FLOW
+![Screenshot from 2023-11-06 17-20-10](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/dc85bcec-740a-406b-b957-12534c96135f)
 
 
 
