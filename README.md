@@ -3,7 +3,30 @@
 <h3>[2023] 반려동물 자동 사료 배급기 제작 🎮</h3>
 바쁜 일상 속에서 반려동물의 배급시간을 책임질 수 있는 기기, 집게리아입니다!<br> 간편하게 동작시킬 수 있으며
 깔끔한 UI로 동시 제어할 수 있습니다🍀
+<br><br>
+
+  ![new](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/ed9bce4f-3552-4c31-b28e-9946b5c4c553)
+  
 </div>
+
+
+<br><br>
+
+## 발표자료 및 시연 영상
+
+![FISHING](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/4b14be82-100c-4c12-9bc0-d7ffcca4eede)
+
+<br><br>
+
+## 구현 기능
+
+|기본 기능|디스플레이|음성 녹음 및 재생|PC 연동|
+|---|---|---|---|
+|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/e09eb797-f234-4e02-8ef6-dd0fe6a713e5)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/19808eeb-5bb7-43bd-98e7-5b5410f711a6)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/a13a614f-3c2f-45f9-90fa-d3b4ccea3d3e)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/663428d4-cef6-4e0a-99c0-2868baf9891f)|
+|배급 시간 설정 기능 <br> 배급량 조절 기능	<br> 즉시 배급 기능 |기본 기능들을 확인 및 설정 가능 <br> 버튼과 가변저항을 디스플레이와 연동 |배급할 때 녹음된 음성 출력 <br> 녹음버튼과 재생버튼을 연동 |Serial 통신을 통해 pc로 제어 가능 <br> pyQt로 GUI 제작|
+
+<br><br>
+
 
 
 ## 프로젝트 개요
@@ -24,14 +47,13 @@
 ## 역할 분담
 #### 이충한
 ###### 총괄
-- 프로젝트 기획 및 물품구매
-- 프로젝트 기획 및 물품구매
+- 하드웨어 설계
+- 3d CAD로 밥통 설계
+- 배선 최적화
+- 하드웨어 최소화를 위해 병철님 압박하기
 - 음성모듈 기능 추가 
 - UI 업그레이드 
 - LCD 버튼 로직 업그레이드
-- 하드웨어 설계
-- 배선 최적화
-- 3d cad로 밥통 설계
 
 #### 이수민
 ###### 소프트웨어 팀장
@@ -50,6 +72,9 @@
 - 깃 관리
 
 
+
+</br>
+</br>
 
 
 
