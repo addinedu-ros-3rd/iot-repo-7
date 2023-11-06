@@ -155,4 +155,21 @@
 |---|---|---|---|
 |![Screenshot from 2023-11-06 20-47-00](https://github.com/marllinkang/pyqt/assets/146154079/49abca17-752b-4e1f-8e47-0caab7302e7f)|![Screenshot from 2023-11-06 20-48-28](https://github.com/marllinkang/pyqt/assets/146154079/658c735f-ae54-42d3-9c85-56351997675d)|![Screenshot from 2023-11-06 20-50-17](https://github.com/marllinkang/pyqt/assets/146154079/bbf68251-1a55-4cb5-9f4f-b4be5e8bb901)|![Screenshot from 2023-11-06 20-50-45](https://github.com/marllinkang/pyqt/assets/146154079/c0ff502f-6fdd-41d2-80b1-dd0fd12345f1)|
 | 기존의 부품들을 이용하여야 하므로 자유도에 제약이 있고, 전선의 길이가 가장 큰 문제여서 수축 튜브를 이용해 최대한 길이를 줄임 |CAD를 이용하여 2가지 모양을 만들어보며 충분히 토의 후 왼쪽의 디자인을 선택| 종이로 제작하여 맞춰보며 수치를 기록| 다시 부품들간에 배치시 문제가 없는지 확인 후 연질 아크릴로 제작|
+<br>
 
+## 제작 과정2
+
+![Screenshot from 2023-11-06 21-19-03](https://github.com/marllinkang/pyqt/assets/146154079/0ea52d15-6f73-4251-833e-f04a9bdf1ec8)|![Screenshot from 2023-11-06 21-19-33](https://github.com/marllinkang/pyqt/assets/146154079/7697afff-28b5-410e-ac07-6d17ccae82ea)
+---|---|
+<br>
+
+## 제작 과정3
+
+![Screenshot from 2023-11-06 21-25-12](https://github.com/marllinkang/pyqt/assets/146154079/28b26406-7c84-4ed3-9c01-7c0d11ebb464)|![Screenshot from 2023-11-06 21-25-30](https://github.com/marllinkang/pyqt/assets/146154079/4f2365fb-3a84-4aa2-ad22-65acade303c7)
+---|---|
+<br>
+
+## 제작 과정4
+![Screenshot from 2023-11-06 21-25-53](https://github.com/marllinkang/pyqt/assets/146154079/fcf46b64-2ecf-4414-b1ff-9eb2d64ec26c)|![Screenshot from 2023-11-06 21-26-03](https://github.com/marllinkang/pyqt/assets/146154079/d53cb759-dfc8-469c-8160-38779d5fc6bd)
+---|---|
+<br>
