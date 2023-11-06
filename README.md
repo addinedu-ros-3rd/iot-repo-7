@@ -165,7 +165,7 @@
 
 ## 제작 과정3
 
-![Screenshot from 2023-11-06 21-25-12](https://github.com/marllinkang/pyqt/assets/146154079/28b26406-7c84-4ed3-9c01-7c0d11ebb464)|![Screenshot from 2023-11-06 21-25-30](https://github.com/marllinkang/pyqt/assets/146154079/4f2365fb-3a84-4aa2-ad22-65acade303c7)
+![Screenshot from 2023-11-06 21-42-11](https://github.com/marllinkang/pyqt/assets/146154079/349d3b38-4f06-440f-9096-94ddd16fe4f3)|![Screenshot from 2023-11-06 21-42-31](https://github.com/marllinkang/pyqt/assets/146154079/0521478f-055b-4857-936a-dea466bfa7ac)
 ---|---|
 <br>
 
