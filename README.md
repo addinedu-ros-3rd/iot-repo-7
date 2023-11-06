@@ -80,7 +80,9 @@
 
 ### 기능
 ![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/b81ce8ed-e04c-4715-8537-fc97e22ca021)
+
 위 사진의 1개의 가변저항과 2개의 버튼을 이용해서 아래의 알고리즘 구현
+
 ![Screenshot from 2023-11-06 17-34-58](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/5850890d-f358-4095-a4fe-7fa6536ed94c)
 
 ### GUI 
