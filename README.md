@@ -125,9 +125,15 @@
 
 **1.소프트웨어를 통해 만든 프로그램의 물리적 구현 가능성**
 
-일반적인 물고기 자동급여 제품처럼 원통이 돌아가며 급여하는 방식으로 하기엔 **복잡하고 신뢰성이 확보되지 않아** 개, 고양이 급여 제품처럼 모터가 작동되며 **먹이가 떨어지는 방식**을 채택
+일반적인 물고기 자동급여 제품처럼 원통이 **돌아가며 급여하는 방식**으로 하기엔 **복잡하고 신뢰성이 확보되지 않아** 개, 고양이 급여 제품처럼 모터가 작동되며 **먹이가 떨어지는 방식**을 채택
 
 
 ![1584570092_00](https://github.com/marllinkang/pyqt/assets/146154079/f3f2ee19-dc6c-4a3e-8453-50395dfe2534)|![B](https://github.com/marllinkang/pyqt/assets/146154079/f0773fda-0665-4598-a44c-65fd8b848516)
 ---|---|
-|돌아가는 방식|떨어지는 방식|
+|**돌아가는 방식**|**떨어지는 방식**|
+
+
+|KW11-1 버튼|I2C LCD|메탈기어 디지털 서보모터|ISD1820 녹음 모듈|
+|---|---|---|---|
+|![200605111532590](https://github.com/marllinkang/pyqt/assets/146154079/2b8a2ca7-cbae-4334-935f-3827a0d0a0e7)|![2068728412_00](https://github.com/marllinkang/pyqt/assets/146154079/24aaad6e-498e-40a0-8faa-fcabbb9fb0ef)|![993113375ACB95090F](https://github.com/marllinkang/pyqt/assets/146154079/008ef437-ba7f-40ae-888a-2c84381f49fb)|![HTB1KapvRXXXXXacXpXXq6xXFXXX6 jpg_640x640Q90 jpg_](https://github.com/marllinkang/pyqt/assets/146154079/eaf5fd04-d358-4e7b-ba82-456a7e58522d)|
+|작은 힘으로도 잘 눌리며 납땜도 가능한 KW11-1 버튼 사용 |I2C LCD로 교체 하여 배선을 줄일 수 있었고, 하나의 아두이노로 모든 기능들을 사용 |메탈기어 서보모터로 교체하여<br>신뢰성을 확보| 녹음 모듈과 버튼을 추가하여 급여시 주인의 목소리를 들을 수 있도록 추가|
