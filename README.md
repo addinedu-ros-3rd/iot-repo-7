@@ -10,7 +10,7 @@
   - 팀명 : 밥 조
   - 팀원 : 이충한 강병철 이수민
   - 기간 : 23.10.23 ~ 23.10.30
-  - 기술 키워드 :  모터제어, LCD, 음성입출력,<img src="https://img.shields.io/badge/PySerial-000000?style=for-the-badge&logo=serial&logoColor=white"> 
+  - 기술 키워드 : <img src="https://img.shields.io/badge/PySerial-000000?style=for-the-badge&logo=serial&logoColor=white"> 
 <img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=Qt&logoColor=white"> <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
 ## 프로젝트 목적
