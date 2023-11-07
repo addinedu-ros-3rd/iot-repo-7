@@ -16,7 +16,10 @@
 
 ![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/494cbc6c-4642-47db-b739-fa1210cf7009)
 
-<a href="https://drive.google.com/file/d/11cObL_RTVPlk4tNoNMhSktwqJqhwBYE1/view?usp=sharing" target="_blank">영상 구경하러 가기</a>
+
+<a href="https://docs.google.com/presentation/d/1GRhyFQjy6CptmJgiF_85uEAGU8C6En9svnF5v4RD1BA/edit?usp=sharing" target="_blank">발표자료 구경하러 가기</a>
+
+<a href="https://drive.google.com/file/d/11cObL_RTVPlk4tNoNMhSktwqJqhwBYE1/view?usp=sharing" target="_blank">시연영상 구경하러 가기</a>
 
 <br><br>
 
