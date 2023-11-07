@@ -135,6 +135,11 @@
 
 ![Screenshot from 2023-11-07 10-40-43](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/cd5bfec9-7c95-4d4d-81ff-69d6c0f12491)
 
+4.남은 시간
+
+![Screenshot from 2023-11-07 14-53-07](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/ede24222-595c-4159-b43c-3c333abed62c)
+
+
 
 
 
