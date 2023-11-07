@@ -158,13 +158,17 @@
 
 ⮕ 결국 사각형 박스모양으로 만드는 것이 구조적으로 가장 튼튼하면서 내부에 부품을 배치하기 좋으며 깔끔하게 만들 수 있다는 현실적인 결론에 도달
 
+<br> 
+
 ## 제작 과정
 
 |전선|3D CAD|종이로 제작|아크릴로 제작|
 |---|---|---|---|
-|![Screenshot from 2023-11-06 20-47-00](https://github.com/marllinkang/pyqt/assets/146154079/49abca17-752b-4e1f-8e47-0caab7302e7f)|![Screenshot from 2023-11-06 20-48-28](https://github.com/marllinkang/pyqt/assets/146154079/658c735f-ae54-42d3-9c85-56351997675d)|![Screenshot from 2023-11-06 20-50-17](https://github.com/marllinkang/pyqt/assets/146154079/bbf68251-1a55-4cb5-9f4f-b4be5e8bb901)|![Screenshot from 2023-11-06 20-50-45](https://github.com/marllinkang/pyqt/assets/146154079/c0ff502f-6fdd-41d2-80b1-dd0fd12345f1)|
+|![Screenshot from 2023-11-06 20-47-00](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/fc0a15f3-c1f3-4da2-9be8-af0cba73e0f7)|![Screenshot from 2023-11-06 20-48-28](https://github.com/marllinkang/pyqt/assets/146154079/658c735f-ae54-42d3-9c85-56351997675d)|![Screenshot from 2023-11-06 20-50-17](https://github.com/marllinkang/pyqt/assets/146154079/bbf68251-1a55-4cb5-9f4f-b4be5e8bb901)|![Screenshot from 2023-11-06 20-50-45](https://github.com/marllinkang/pyqt/assets/146154079/c0ff502f-6fdd-41d2-80b1-dd0fd12345f1)|
 | 기존의 부품들을 이용하여야 하므로 자유도에 제약이 있고, 전선의 길이가 가장 큰 문제여서 수축 튜브를 이용해 최대한 길이를 줄임 |CAD를 이용하여 2가지 모양을 만들어보며 충분히 토의 후 왼쪽의 디자인을 선택| 종이로 제작하여 맞춰보며 수치를 기록| 다시 부품들간에 배치시 문제가 없는지 확인 후 연질 아크릴로 제작|
+
 <br>
+
 
 ## 제작 과정2
 
