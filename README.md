@@ -84,23 +84,28 @@
 ### 시스템 FLOW
 - 시작 -> 초기화 후 사용자가 설정한 배급 시간 및 상태에 따라 동작
 - 동작 후 다시 대기
-![Screenshot from 2023-11-06 17-20-10](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/dc85bcec-740a-406b-b957-12534c96135f)
+![Screenshot from 2023-11-07 10-37-21](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/64184c23-046a-4f4a-bd41-18b74f0eb6d5)
+
 
 ### 기능
 ![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/b81ce8ed-e04c-4715-8537-fc97e22ca021)
 
 위 사진의 1개의 가변저항과 2개의 버튼(왼:확인, 오:상태변경)을 이용해서 아래의 알고리즘 구현
 
-![Screenshot from 2023-11-06 17-34-58](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/5850890d-f358-4095-a4fe-7fa6536ed94c)
+![Screenshot from 2023-11-07 10-38-08](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/18dd80d9-b86e-4e97-bbb7-6dd4c7bd2f74)
+
 
 1.시간 설정
-![Screenshot from 2023-11-06 18-12-00](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/3eef8d22-af15-428b-8431-7c90107c2f13)
+![Screenshot from 2023-11-07 10-39-44](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/9b314d0f-37fa-4e50-8260-60283704d044)
+
 
 2.사료량 설정
-![Screenshot from 2023-11-06 18-12-37](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/e83665df-6540-414e-b8bd-41f512c339f8)
+![Screenshot from 2023-11-07 10-40-19](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/b611f506-9d2a-4c53-a802-b47e4711fc2a)
+
 
 3.즉시 지급
-![Screenshot from 2023-11-06 18-12-59](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/89cf6858-3202-4c2d-b11c-df27cd897bc9)
+![Screenshot from 2023-11-07 10-40-43](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/cd5bfec9-7c95-4d4d-81ff-69d6c0f12491)
+
 
 
 
@@ -108,7 +113,8 @@
 ### GUI 
 - GUI를 활용하여 PC와의 Serial 통신을 통해 기기를 동작할 수 있다.
 - 그림에 표시된 버튼을 누르게 되면 기기와 연동됨
-  ![Screenshot from 2023-11-06 17-53-21](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/9b9bfabe-16dd-49ad-857e-46693ee96f5a)
+![Screenshot from 2023-11-07 10-39-02](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/d27244d2-8025-42a2-8607-c67993ce20d4)
+
 
 ### 하드웨어
 1. 소프트웨어를 통해 만든 프로그램의 물리적 구현
