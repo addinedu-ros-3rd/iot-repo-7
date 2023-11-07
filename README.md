@@ -200,7 +200,7 @@
 
 ### 제작 과정2
 
-![Screenshot from 2023-11-07 10-16-16](https://github.com/marllinkang/pyqt/assets/146154079/bb298217-8742-4ae4-a613-56e21babc770)|![Screenshot from 2023-11-07 10-15-50](https://github.com/marllinkang/pyqt/assets/146154079/ae6f1a50-7ec7-474a-8a54-ffdd0a37c547)
+![Screenshot from 2023-11-07 10-15-50](https://github.com/marllinkang/pyqt/assets/146154079/ae6f1a50-7ec7-474a-8a54-ffdd0a37c547)|![Screenshot from 2023-11-07 10-37-08](https://github.com/marllinkang/pyqt/assets/146154079/a2d33444-7bbc-453f-b49e-6a134c10e8c8)
 ---|---|
 <br>
 
@@ -210,15 +210,6 @@
 ---|---|
 <br>
 
-### 제작 과정4
-![Screenshot from 2023-11-07 10-31-22](https://github.com/marllinkang/pyqt/assets/146154079/84018ddf-bd1b-4314-a381-712e4d22f2b7)|![Screenshot from 2023-11-07 10-29-40](https://github.com/marllinkang/pyqt/assets/146154079/25462902-3e08-407b-ba5a-f6259ae1ac6d)
----|---|
-<br>
-
-### 제작 과정5
-![Screenshot from 2023-11-07 10-37-08](https://github.com/marllinkang/pyqt/assets/146154079/a2d33444-7bbc-453f-b49e-6a134c10e8c8)|![Screenshot from 2023-11-07 10-40-18](https://github.com/marllinkang/pyqt/assets/146154079/9b0423f1-5967-4f79-ad00-591451f12c39)
----|---|
-<br>
 
 ### 완성 및 작동 테스트
 ![Screenshot from 2023-11-06 21-37-50](https://github.com/marllinkang/pyqt/assets/146154079/64672a19-77b0-4ba3-bb05-7648635b5aab)
