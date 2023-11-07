@@ -81,6 +81,8 @@
 </br>
 </br>
 
+## 소프트웨어
+
 ### 시스템 FLOW
 - 시작 -> 초기화 후 사용자가 설정한 배급 시간 및 상태에 따라 동작
 - 동작 후 다시 대기
@@ -120,7 +122,8 @@
 ![Screenshot from 2023-11-07 10-39-02](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/d27244d2-8025-42a2-8607-c67993ce20d4)
 
 
-### 하드웨어
+## 하드웨어
+
 1. 소프트웨어를 통해 만든 프로그램의 물리적 구현
 2. 물리적으로 구현된 제품의 컴팩트한 패키지를 위한 고려사항
 3. 디자인
@@ -171,7 +174,7 @@
 
 <br> 
 
-## 제작 과정
+### 제작 과정1
 
 |전선|3D CAD|종이로 제작|아크릴로 제작|
 |---|---|---|---|
@@ -181,29 +184,29 @@
 <br>
 
 
-## 제작 과정2
+### 제작 과정2
 
 ![Screenshot from 2023-11-07 10-16-16](https://github.com/marllinkang/pyqt/assets/146154079/bb298217-8742-4ae4-a613-56e21babc770)|![Screenshot from 2023-11-07 10-15-50](https://github.com/marllinkang/pyqt/assets/146154079/ae6f1a50-7ec7-474a-8a54-ffdd0a37c547)
 ---|---|
 <br>
 
-## 제작 과정3
+### 제작 과정3
 
 ![Screenshot from 2023-11-07 10-11-38](https://github.com/marllinkang/pyqt/assets/146154079/ff8d66a4-a6df-4371-8e56-620de856affe)|![Screenshot from 2023-11-07 10-24-47](https://github.com/marllinkang/pyqt/assets/146154079/fcfe5582-90b1-4001-8a82-2c536f150b8f)
 ---|---|
 <br>
 
-## 제작 과정4
+### 제작 과정4
 ![Screenshot from 2023-11-07 10-31-22](https://github.com/marllinkang/pyqt/assets/146154079/84018ddf-bd1b-4314-a381-712e4d22f2b7)|![Screenshot from 2023-11-07 10-29-40](https://github.com/marllinkang/pyqt/assets/146154079/25462902-3e08-407b-ba5a-f6259ae1ac6d)
 ---|---|
 <br>
 
-## 제작 과정5
+### 제작 과정5
 ![Screenshot from 2023-11-07 10-37-08](https://github.com/marllinkang/pyqt/assets/146154079/a2d33444-7bbc-453f-b49e-6a134c10e8c8)|![Screenshot from 2023-11-07 10-40-18](https://github.com/marllinkang/pyqt/assets/146154079/9b0423f1-5967-4f79-ad00-591451f12c39)
 ---|---|
 <br>
 
-## 완성 및 작동 테스트
+### 완성 및 작동 테스트
 ![Screenshot from 2023-11-06 21-37-50](https://github.com/marllinkang/pyqt/assets/146154079/64672a19-77b0-4ba3-bb05-7648635b5aab)
 
 
