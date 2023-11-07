@@ -33,6 +33,14 @@
 
 <br>
 
+### 시스템 FLOW
+- 시작 -> 초기화 후 사용자가 설정한 배급 시간 및 상태에 따라 동작
+- 동작 후 다시 대기
+  
+![Screenshot from 2023-11-07 14-45-41](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/3d47413b-dec2-4138-a635-aad1697abc94)
+
+<br>
+
 ## 시연 영상
 
 <a href="https://drive.google.com/file/d/1O4yaKixV0tho8Y_e9o1JFHSnvmXTZBuA/view?usp=sharing">
@@ -125,14 +133,6 @@
 </br>
 
 ## 소프트웨어
-
-### 시스템 FLOW
-- 시작 -> 초기화 후 사용자가 설정한 배급 시간 및 상태에 따라 동작
-- 동작 후 다시 대기
-  
-![Screenshot from 2023-11-07 14-45-41](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/3d47413b-dec2-4138-a635-aad1697abc94)
-
-
 
 ### 주요 기능
 ![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/b81ce8ed-e04c-4715-8537-fc97e22ca021)
