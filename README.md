@@ -98,6 +98,8 @@
 - 확인 버튼 : ok 기능
 
 - Mode 버튼 : 아래 그림의 상태 변경 기능
+
+- 가변 저항 : 값 조절 기능
 ![Screenshot from 2023-11-07 10-38-08](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/18dd80d9-b86e-4e97-bbb7-6dd4c7bd2f74)
 
 
