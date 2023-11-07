@@ -174,7 +174,8 @@
 ### GUI 
 - GUI를 활용하여 PC와의 Serial 통신을 통해 기기를 동작할 수 있다.
 - 그림에 표시된 버튼을 누르게 되면 기기와 연동됨
-![Screenshot from 2023-11-07 10-39-02](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/d27244d2-8025-42a2-8607-c67993ce20d4)
+![Screenshot from 2023-11-07 17-40-12](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/743404ed-0c94-467c-a518-cebb983ba6b8)
+
 
 <br>
 <br>
