@@ -34,10 +34,9 @@
 
 ## 시연 영상
 
-<a href="https://drive.google.com/file/d/11cObL_RTVPlk4tNoNMhSktwqJqhwBYE1/view?usp=sharing">
+<a href="https://drive.google.com/file/d/1O4yaKixV0tho8Y_e9o1JFHSnvmXTZBuA/view?usp=sharing">
 	<img src="https://img.freepik.com/free-vector/minimal-white-style-video-player-template-design_1017-25481.jpg?w=1380&t=st=1699332158~exp=1699332758~hmac=b96fa1a5b3bb8f973569ae6f45d1a6cc2cb439b527b46db5dec55262dc69a29f">
 </a>
-
 
 <br><br>
 
@@ -47,6 +46,10 @@
 |---|---|---|---|
 |![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/e021b891-b250-446d-9b14-0fef2a2e2c61)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/19808eeb-5bb7-43bd-98e7-5b5410f711a6)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/a13a614f-3c2f-45f9-90fa-d3b4ccea3d3e)|![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/5743f81a-7101-4cb7-b6c6-f0834148c85c)|
 |배급 시간 설정 기능 <br> 배급량 조절 기능	<br> 즉시 배급 기능 |기본 기능들을 확인 및 설정 가능 <br> 버튼과 가변저항을 디스플레이와 연동 |배급할 때 녹음된 음성 출력 <br> 녹음버튼과 재생버튼을 연동 |Serial 통신을 통해 pc로 제어 가능 <br> pyQt로 GUI 제작|
+
+<a href="https://drive.google.com/file/d/11cObL_RTVPlk4tNoNMhSktwqJqhwBYE1/view?usp=sharing">
+	<img src="https://img.freepik.com/free-vector/minimal-white-style-video-player-template-design_1017-25481.jpg?w=1380&t=st=1699332158~exp=1699332758~hmac=b96fa1a5b3bb8f973569ae6f45d1a6cc2cb439b527b46db5dec55262dc69a29f">
+</a>
 
 <br><br>
 
