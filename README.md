@@ -24,8 +24,13 @@
   
 </div>
 
+<br>
 
-<br><br>
+## 시스템 구성도
+
+![Screenshot from 2023-11-07 16-02-44](https://github.com/marllinkang/pyqt/assets/146154079/bdbffde6-ecc6-48e0-8636-66563d81785a)
+
+<br>
 
 ## 시연 영상
 
