@@ -135,7 +135,7 @@
 
 **떨어지는 방식**|**돌아가는 방식**
 ---|---|
-|![1584570092_00](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/1cbfffc5-880b-4b81-8a6c-8876f41d43f4)|![B](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/2ddcfc6d-55e6-402d-9885-2b5e7779a8ce)|
+|![1584570092_00](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/1cbfffc5-880b-4b81-8a6c-8876f41d43f4)|![B](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/791e1e8b-490d-4fd4-a3c6-5cca0fff0508)|
 
 <br>
 
