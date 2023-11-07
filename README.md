@@ -133,9 +133,11 @@
 일반적인 물고기 자동급여 제품처럼 원통이 **돌아가며 급여하는 방식**으로 하기엔 **복잡하고 신뢰성이 확보되지 않아** 개, 고양이 급여 제품처럼 모터가 작동되며 **먹이가 떨어지는 방식**을 채택
 
 
-![1584570092_00](https://github.com/marllinkang/pyqt/assets/146154079/f3f2ee19-dc6c-4a3e-8453-50395dfe2534)|![B](https://github.com/marllinkang/pyqt/assets/146154079/f0773fda-0665-4598-a44c-65fd8b848516)
+**떨어지는 방식**|**돌아가는 방식**
 ---|---|
-|**돌아가는 방식**|**떨어지는 방식**|
+|![1584570092_00](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/1cbfffc5-880b-4b81-8a6c-8876f41d43f4)|![B](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/2ddcfc6d-55e6-402d-9885-2b5e7779a8ce)|
+
+<br>
 
 ## 사용 재료
 |KW11-1 버튼|I2C LCD|메탈기어 디지털 서보모터|ISD1820 녹음 모듈|
