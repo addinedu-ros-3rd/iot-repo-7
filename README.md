@@ -139,30 +139,30 @@
 
 위 사진의 1개의 가변저항과 2개의 버튼(왼:확인, 오:상태변경)을 이용해서 아래의 알고리즘 구현
 
-- 확인 버튼 : ok 기능
+- **확인 버튼** : ok 기능
 
-- Mode 버튼 : 아래 그림의 상태 변경 기능
+- **Mode 버튼** : 아래 그림의 상태 변경 기능
 
-- 가변 저항 : 값 조절 기능
+- **가변 저항** : 값 조절 기능
   
 ![Screenshot from 2023-11-07 10-38-08](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/18dd80d9-b86e-4e97-bbb7-6dd4c7bd2f74)
 
 
-1.시간 설정
+**1.시간 설정**
 
 ![Screenshot from 2023-11-07 10-39-44](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/9b314d0f-37fa-4e50-8260-60283704d044)
 
 
-2.사료량 설정
+**2.사료량 설정**
 
 ![Screenshot from 2023-11-07 10-40-19](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/b611f506-9d2a-4c53-a802-b47e4711fc2a)
 
 
-3.즉시 지급
+**3.즉시 지급**
 
 ![Screenshot from 2023-11-07 10-40-43](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/cd5bfec9-7c95-4d4d-81ff-69d6c0f12491)
 
-4.남은 시간
+**4.남은 시간**
 
 ![Screenshot from 2023-11-07 14-53-07](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/ede24222-595c-4159-b43c-3c333abed62c)
 
