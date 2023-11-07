@@ -15,7 +15,7 @@
 ## 시연 영상
 
 <a href="https://drive.google.com/file/d/11cObL_RTVPlk4tNoNMhSktwqJqhwBYE1/view?usp=sharing">
-	<img src="https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/494cbc6c-4642-47db-b739-fa1210cf7009">
+	<img src="https://img.freepik.com/free-vector/minimal-white-style-video-player-template-design_1017-25481.jpg?w=1380&t=st=1699332158~exp=1699332758~hmac=b96fa1a5b3bb8f973569ae6f45d1a6cc2cb439b527b46db5dec55262dc69a29f">
 </a>
 
 
