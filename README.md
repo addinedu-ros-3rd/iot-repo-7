@@ -84,6 +84,7 @@
 ### 시스템 FLOW
 - 시작 -> 초기화 후 사용자가 설정한 배급 시간 및 상태에 따라 동작
 - 동작 후 다시 대기
+  
 ![Screenshot from 2023-11-07 10-37-21](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/64184c23-046a-4f4a-bd41-18b74f0eb6d5)
 
 
@@ -96,14 +97,17 @@
 
 
 1.시간 설정
+
 ![Screenshot from 2023-11-07 10-39-44](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/9b314d0f-37fa-4e50-8260-60283704d044)
 
 
 2.사료량 설정
+
 ![Screenshot from 2023-11-07 10-40-19](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/b611f506-9d2a-4c53-a802-b47e4711fc2a)
 
 
 3.즉시 지급
+
 ![Screenshot from 2023-11-07 10-40-43](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/cd5bfec9-7c95-4d4d-81ff-69d6c0f12491)
 
 
