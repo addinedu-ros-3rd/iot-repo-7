@@ -107,7 +107,7 @@
 
 
 
-### 기능
+### 주요 기능
 ![image](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/b81ce8ed-e04c-4715-8537-fc97e22ca021)
 
 위 사진의 1개의 가변저항과 2개의 버튼(왼:확인, 오:상태변경)을 이용해서 아래의 알고리즘 구현
