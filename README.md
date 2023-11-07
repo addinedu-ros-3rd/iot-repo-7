@@ -215,3 +215,6 @@
 ![Screenshot from 2023-11-06 21-37-50](https://github.com/marllinkang/pyqt/assets/146154079/64672a19-77b0-4ba3-bb05-7648635b5aab)
 
 
+### 아쉬운 점
+
+### 향후 계획
