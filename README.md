@@ -28,7 +28,7 @@
 
 ## 시스템 구성도
 
-![Screenshot from 2023-11-07 17-13-51](https://github.com/marllinkang/pyqt/assets/146154079/01f05ffa-753f-4e8a-81cf-177aa5a8990c)
+![Screenshot from 2023-11-07 17-31-31](https://github.com/marllinkang/pyqt/assets/146154079/4dc6381d-0bcf-4656-ae4e-95b577c3ddcd)
 
 
 <br>
