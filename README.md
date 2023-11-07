@@ -142,8 +142,10 @@
 ## 사용 재료
 |KW11-1 버튼|I2C LCD|메탈기어 디지털 서보모터|ISD1820 녹음 모듈|
 |---|---|---|---|
-|![200605111532590](https://github.com/marllinkang/pyqt/assets/146154079/2b8a2ca7-cbae-4334-935f-3827a0d0a0e7)|![2068728412_00](https://github.com/marllinkang/pyqt/assets/146154079/24aaad6e-498e-40a0-8faa-fcabbb9fb0ef)|![993113375ACB95090F](https://github.com/marllinkang/pyqt/assets/146154079/008ef437-ba7f-40ae-888a-2c84381f49fb)|![HTB1KapvRXXXXXacXpXXq6xXFXXX6 jpg_640x640Q90 jpg_](https://github.com/marllinkang/pyqt/assets/146154079/eaf5fd04-d358-4e7b-ba82-456a7e58522d)|
+|![200605111532590](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/7f8743c7-e069-4964-b279-7504bb2bce6a)|![2068728412_00](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/28facf5c-7c4d-4818-8751-b4bd09280835)|![993113375ACB95090F](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/55674360/3d6fc4b8-68b1-4fe4-bb73-a3348b457955)|![HTB1KapvRXXXXXacXpXXq6xXFXXX6 jpg_640x640Q90 jpg_](https://github.com/marllinkang/pyqt/assets/146154079/eaf5fd04-d358-4e7b-ba82-456a7e58522d)|
 |작은 힘으로도 잘 눌리며 납땜도 가능한 KW11-1 버튼 사용 |I2C LCD로 교체 하여 배선을 줄일 수 있었고, 하나의 아두이노로 모든 기능들을 사용 |메탈기어 서보모터로 교체하여<br>신뢰성을 확보| 녹음 모듈과 버튼을 추가하여 급여시 주인의 목소리를 들을 수 있도록 추가|
+
+<br>
 
 **2.물리적으로 구현된 제품의 컴팩트한 패키지를 위한 고려사항**
 
