@@ -103,7 +103,8 @@
 - 시작 -> 초기화 후 사용자가 설정한 배급 시간 및 상태에 따라 동작
 - 동작 후 다시 대기
   
-![Screenshot from 2023-11-07 10-37-21](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/64184c23-046a-4f4a-bd41-18b74f0eb6d5)
+![Screenshot from 2023-11-07 14-45-41](https://github.com/addinedu-ros-3rd/iot-repo-7/assets/146153568/3d47413b-dec2-4138-a635-aad1697abc94)
+
 
 
 ### 기능
