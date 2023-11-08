@@ -9,14 +9,14 @@
 7. ~~하드웨어 부분을 줄일 필요가 있음~~ ✅
 8. 소프트웨어 리뷰과정 추가 
 9. ~~초반에 생각했던 것들( 압력센서 ) 설계에 추가~~ ✅
-10. 아쉬웠던 점 / 향후계획(업그레이드 할 내용들 - 반려견 음성인식)
+10. ~~아쉬웠던 점 / 향후계획(업그레이드 할 내용들 - 반려견 음성인식)~~ ✅
 ---
 
 
 <div align="center">
 <h2>IoT 프로젝트 7조 저장소. 반려동물 자동 사료 배급기</h2>
 <h3>[2023] 반려동물 자동 사료 배급기 제작 🏠</h3>
-바쁜 일상 속에서 반려동물의 배급시간을 책임질 수 있는 기기, 집게리아입니다!<br> 간편하게 동작시킬 수 있으며
+바쁜 일상 속에서 반려동물의 배급시간을 책임질 수 있는 기기, 집게리아입니다! <br> 간편하게 동작시킬 수 있으며
 깔끔한 UI로 동시 제어할 수 있습니다 🐟🐶
 <br><br>
 
@@ -256,16 +256,18 @@
 
 ![Screenshot from 2023-11-07 10-15-50](https://github.com/marllinkang/pyqt/assets/146154079/ae6f1a50-7ec7-474a-8a54-ffdd0a37c547)|![Screenshot from 2023-11-07 10-37-08](https://github.com/marllinkang/pyqt/assets/146154079/a2d33444-7bbc-453f-b49e-6a134c10e8c8)
 ---|---|
+
 <br>
 
 ### 제작 과정3
 
 ![Screenshot from 2023-11-07 10-11-38](https://github.com/marllinkang/pyqt/assets/146154079/ff8d66a4-a6df-4371-8e56-620de856affe)|![Screenshot from 2023-11-07 10-24-47](https://github.com/marllinkang/pyqt/assets/146154079/fcfe5582-90b1-4001-8a82-2c536f150b8f)
 ---|---|
+
 <br>
 
 
-### 완성 및 작동 테스트
+## 완성 및 피드백
 ![Screenshot from 2023-11-06 21-37-50](https://github.com/marllinkang/pyqt/assets/146154079/64672a19-77b0-4ba3-bb05-7648635b5aab)
 
 
@@ -274,6 +276,7 @@
 
 - **높이 조절이 가능한 거치대를 만들지 못해 다양한 반려동물에게 사용 어려움**
 
+<br>
 
 ### 향후 계획
 
