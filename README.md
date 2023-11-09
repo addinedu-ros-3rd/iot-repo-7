@@ -26,6 +26,16 @@
 
 <br>
 
+
+## 시연 영상
+
+<a href="https://drive.google.com/file/d/1O4yaKixV0tho8Y_e9o1JFHSnvmXTZBuA/view?usp=sharing">
+	<img src="https://img.freepik.com/free-vector/minimal-white-style-video-player-template-design_1017-25481.jpg?w=1380&t=st=1699332158~exp=1699332758~hmac=b96fa1a5b3bb8f973569ae6f45d1a6cc2cb439b527b46db5dec55262dc69a29f">
+</a>
+
+<br><br>
+
+
 ## 시스템 구성도
 
 ![Screenshot from 2023-11-07 17-48-21](https://github.com/marllinkang/pyqt/assets/146154079/d2bd971a-e0ae-4f8e-bb7d-3a440c583bf6)
@@ -43,14 +53,6 @@
 
 
 <br>
-
-## 시연 영상
-
-<a href="https://drive.google.com/file/d/1O4yaKixV0tho8Y_e9o1JFHSnvmXTZBuA/view?usp=sharing">
-	<img src="https://img.freepik.com/free-vector/minimal-white-style-video-player-template-design_1017-25481.jpg?w=1380&t=st=1699332158~exp=1699332758~hmac=b96fa1a5b3bb8f973569ae6f45d1a6cc2cb439b527b46db5dec55262dc69a29f">
-</a>
-
-<br><br>
 
 ## 구현 기능 및 구현 기능 설명 영상
 
